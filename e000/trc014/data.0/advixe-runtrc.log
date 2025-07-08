@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2025/07/08 16:30:09</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/stud/S5892646/Downloads/MandlebrotProject/e000/trc014/trc014.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/VM/stud/S5892646/Downloads/MandlebrotProject/release/sequential/mandelbrot_sequential</arg>
+  <arg>104070</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:20 2025</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:20 2025</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/VM/stud/S5892646/Downloads/MandlebrotProject/release/sequential/mandelbrot_sequential</arg>
+  <arg>0x400000</arg>
+  <arg>0x40b1cf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:20 2025</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x7ff0d3c68000</arg>
+  <arg>0x7ff0d3c9c2d7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:20 2025</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffe791e7000</arg>
+  <arg>0x7ffe791e7d7b</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:20 2025</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libstdc++.so.6</arg>
+  <arg>0x7ff0be600000</arg>
+  <arg>0x7ff0be81987f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <arg>0x7ff0be520000</arg>
+  <arg>0x7ff0be5ff10f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/opt/intel/oneapi/compiler/2023.2.1/linux/compiler/lib/intel64_lin/libiomp5.so</arg>
+  <arg>0x7ff0be000000</arg>
+  <arg>0x7ff0be44114f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libgcc_s.so.1</arg>
+  <arg>0x7ff0be832000</arg>
+  <arg>0x7ff0be8512c7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <arg>0x7ff0bde1f000</arg>
+  <arg>0x7ff0bdffff4f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/librt.so.1</arg>
+  <arg>0x7ff0be4ee000</arg>
+  <arg>0x7ff0be4f201f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libpthread.so.0</arg>
+  <arg>0x7ff0be4e7000</arg>
+  <arg>0x7ff0be4eb00f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libdl.so.2</arg>
+  <arg>0x7ff0be4e0000</arg>
+  <arg>0x7ff0be4e400f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  8 16:30:21 2025</timestamp>
+</msg>
